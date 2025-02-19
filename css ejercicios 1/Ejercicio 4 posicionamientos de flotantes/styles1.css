@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+.parent-box{
+    background: #2e294a;
+    width: 700px;
+    overflow: hidden;
+}
+
+.box{
+    width:200px;
+    color:#fff;
+    font-size: 38px;
+    height:200px;
+    background: #0e6ba8;
+    margin: 20px;
+}
+
+.one{ float: right; }
+
+.two{ float: left; }

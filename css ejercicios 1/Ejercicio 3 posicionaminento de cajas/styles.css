@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+/*.box{
+    width:200px;
+    height:200px;
+    background: #4e73df;
+    margin: 20px;
+}*/
+
+/*.position{
+    background: #086788;
+    position: static;
+}*/
+
+/*.position{
+    background: #086788;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}*/
+
+/*.position{
+    background: #086788;
+    position: absolute;
+    left: 150px;
+}*/
+
+/*.position{
+    background: #086788;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}*/
+
+.parent-box{
+    margin: 20px;
+    background: #061f27;
+    position: relative;
+    width:400px;
+    height:400px;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    background: #4e73df;
+    margin: 20px;
+    float: left;
+}
+
+.position{ background: #086788; }

@@ -1,0 +1,49 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    margin: 20px 0;
+}
+
+.btn{
+    background: #086788; /* se define el color de fondo para el botón */
+    color: #fff; /* Al texto se le agrega un color que contraste */
+    font-size:16px; /* se define el tamaño del texto*/
+    text-decoration: none; /* se elimina el subrayado que produce la etiqueta <a> */
+    padding: 15px 20px; /* se coloca  un espacio a los lados, arriba y abajo */
+    display: inline-block; /* se modifica  el comportamiento del <a> para que se comporte como bloque */
+    margin: 0 10px; /* se coloca una  separacion horizontal */
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.small{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium{
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.big{
+    font-size: 18px;
+    padding: 20px 25px;
+}
+
+.extra-big{
+    font-size: 20px;
+    padding: 25px 30px;
+}
+
+.blue { background: #246eb9; }
+
+.green { background: #4fb560; }
+
+.orange { background: #f9a03f; }
+
